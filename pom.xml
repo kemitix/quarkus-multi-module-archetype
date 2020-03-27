@@ -18,6 +18,7 @@
   <properties>
     <tiles-maven-plugin.version>2.16</tiles-maven-plugin.version>
     <kemitix-maven-tiles.version>2.4.1</kemitix-maven-tiles.version>
+    <maven-archetype.version>3.1.2</maven-archetype.version>
   </properties>
 
   <build>
@@ -25,7 +26,7 @@
       <extension>
         <groupId>org.apache.maven.archetype</groupId>
         <artifactId>archetype-packaging</artifactId>
-        <version>3.1.2</version>
+        <version>${maven-archetype.version}</version>
       </extension>
     </extensions>
 
@@ -47,7 +48,7 @@
       <plugins>
         <plugin>
           <artifactId>maven-archetype-plugin</artifactId>
-          <version>3.1.2</version>
+          <version>${maven-archetype.version}</version>
         </plugin>
       </plugins>
     </pluginManagement>
