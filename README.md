@@ -1,5 +1,8 @@
 # Quarkus Multi-module Archetype
 
+![Sonatype Nexus (Release)](https://img.shields.io/nexus/r/https/oss.sonatype.org/net.kemitix/quarkus-multi-module-archetype.svg?style=for-the-badge)
+ ![Maven Central](https://img.shields.io/maven-central/v/net.kemitix/quarkus-multi-module-archetype.svg?style=for-the-badge)
+
 This project provides a Maven Archetype for creating a multi-module project with Quarkus.
 
 The modules that are created in the project are:
