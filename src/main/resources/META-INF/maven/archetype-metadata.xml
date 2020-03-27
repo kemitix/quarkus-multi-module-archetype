@@ -3,7 +3,13 @@
                       name="quarkus-multi-module-archetype"
     xmlns="https://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.1.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <fileSets/>
+  <fileSets>
+    <fileSet filtered="false" packaged="false" encoding="UTF-8">
+      <includes>
+        <include>README.md</include>
+      </includes>
+    </fileSet>
+  </fileSets>
   <modules>
     <module id="parent" dir="parent" name="parent" />
     <module id="service" dir="service" name="service">
