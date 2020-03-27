@@ -5,6 +5,17 @@
 
 This project provides a Maven Archetype for creating a multi-module project with Quarkus.
 
+## Usage:
+
+Replace `${RELEASE}` with the latest version as shown above.
+
+```bash
+mvn archetype:generate
+  -DarchetypeGroupId=net.kemitix
+  -DarchetypeArtifactId=quarkus-multi-module-archetype
+  -DarchetypeVersion=${RELEASE}
+```
+
 ## Modules
 
 The modules that are created in the project are:
