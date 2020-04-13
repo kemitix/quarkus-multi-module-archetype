@@ -17,3 +17,9 @@ mvn archetype:generate \
 ```
 
 See the generated project's [README](./src/main/resources/archetype-resources/README.md) for details.
+
+## Structure/Dependencies
+
+The generated project has the following structure and dependencies.
+
+![Dependency Graph](./reactor-graph.png)
