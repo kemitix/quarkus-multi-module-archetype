@@ -10,9 +10,9 @@ This project provides a Maven Archetype for creating a multi-module project with
 Replace `${RELEASE}` with the latest version as shown above.
 
 ```bash
-mvn archetype:generate
-  -DarchetypeGroupId=net.kemitix
-  -DarchetypeArtifactId=quarkus-multi-module-archetype
+mvn archetype:generate \
+  -DarchetypeGroupId=net.kemitix \
+  -DarchetypeArtifactId=quarkus-multi-module-archetype \
   -DarchetypeVersion=${RELEASE}
 ```
 
